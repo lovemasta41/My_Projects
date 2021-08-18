@@ -1,0 +1,5 @@
+x = input("Enter comma separated no.:")
+y = x.split(",")
+z = tuple(y)
+print(y)
+print(z)
