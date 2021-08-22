@@ -2,7 +2,6 @@
 #required pip install azure-mgmt-resource
 #required pip install azure.mgmt.subscription
 #azure account extension
-from re import sub
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.subscription import SubscriptionClient
 from azure.mgmt.resource.resources import ResourceManagementClient
